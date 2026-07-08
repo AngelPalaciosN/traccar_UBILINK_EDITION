@@ -9,9 +9,9 @@
     <entry key='database.user'>sa</entry>
     <entry key='database.password' />
 
-    <!-- Aislamiento de Protocolo: Solo GT06 activo -->
-    <entry key='protocols.enable'>gt06</entry>
-    <entry key='gt06.port'>5023</entry>
+    <!-- Aislamiento de Protocolo: Solo VT08F activo -->
+    <entry key='protocols.enable'>vt08f</entry>
+    <entry key='vt08f.port'>5023</entry>
 
     <!-- Modo Solo API y WebSockets (Frontend desactivado) -->
     <entry key='web.enable'>true</entry>
