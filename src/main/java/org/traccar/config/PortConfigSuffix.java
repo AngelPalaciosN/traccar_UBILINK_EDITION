@@ -108,6 +108,7 @@ import org.traccar.protocol.GranitProtocol;
 import org.traccar.protocol.Gs100Protocol;
 import org.traccar.protocol.Gt02Protocol;
 import org.traccar.protocol.Gt06Protocol;
+import org.traccar.protocol.Vt08fProtocol;
 import org.traccar.protocol.Gt30Protocol;
 import org.traccar.protocol.H02Protocol;
 import org.traccar.protocol.HaicomProtocol;
@@ -319,6 +320,7 @@ public class PortConfigSuffix extends ConfigSuffix<Integer> {
         put(SkypatrolProtocol.class, 5021);
         put(Gt02Protocol.class, 5022);
         put(Gt06Protocol.class, 5023);
+        put(Vt08fProtocol.class, 5023);
         put(MegastekProtocol.class, 5024);
         put(NavigilProtocol.class, 5025);
         put(GpsGateProtocol.class, 5026);
