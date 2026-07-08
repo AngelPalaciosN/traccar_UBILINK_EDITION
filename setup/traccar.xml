@@ -9,4 +9,16 @@
     <entry key='database.user'>sa</entry>
     <entry key='database.password' />
 
+    <!-- Aislamiento de Protocolo: Solo GT06 activo -->
+    <entry key='protocols.enable'>gt06</entry>
+    <entry key='gt06.port'>5023</entry>
+
+    <!-- Modo Solo API y WebSockets (Frontend desactivado) -->
+    <entry key='web.enable'>true</entry>
+    <entry key='web.path'>./web-dummy</entry>
+
+    <!-- Logueo al maximo para ver tramas en hexadecimal -->
+    <entry key='logger.console'>true</entry>
+    <entry key='logger.level'>all</entry>
+
 </properties>
